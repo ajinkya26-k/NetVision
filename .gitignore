@@ -1,0 +1,7 @@
+# Keep this repository limited to the demo and its direct support files.
+*
+!.gitignore
+!README.md
+!requirements.txt
+!video_demo_sockets.py
+!map_net.py
