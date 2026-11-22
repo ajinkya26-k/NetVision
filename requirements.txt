@@ -1,5 +1,7 @@
-matplotlib
-numpy
-opencv-python
-pandas
-ultralytics
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.23.0
+scikit-image>=0.20.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+torch>=2.0.0

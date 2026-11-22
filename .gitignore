@@ -1,7 +1,23 @@
-# Keep this repository limited to the demo and its direct support files.
-*
-!.gitignore
-!README.md
-!requirements.txt
-!video_demo_sockets.py
-!map_net.py
+cat << 'EOF' >> .gitignore
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Heavy Weights & Video Files
+*.pt
+benchmark_videos/
+*.mp4
+coco_samples/
+
+# Output Metrics (keep repo clean)
+*.csv
+*.png
+
+# macOS system files
+.DS_Store
+EOF
